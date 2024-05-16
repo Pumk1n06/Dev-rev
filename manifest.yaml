@@ -53,7 +53,7 @@ automations:
     function: function_1
 
 commands:
-  - name: comment_here
+  - name: clone
     namespace: devrev
     description: Command to trigger function to add comment to this work item.
     surfaces:
@@ -62,4 +62,4 @@ commands:
           - issue
           - ticket
     usage_hint: "Command to add comment to this work item."
-    function: function_2
+    function: function_1
